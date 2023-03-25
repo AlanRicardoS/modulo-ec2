@@ -1,9 +1,9 @@
 variable "ami" {
-  default = ["${aws.ami.default}"]
+  default = aws_ami
 }
 variable "instance" {
-  default = ["${aws.instance.default}"]
+  default = aws_instance
 }
-variable "count" {
-  default = ["${aws.count.default}"]
+variable "counter" {
+  default = aws_counter
 }
