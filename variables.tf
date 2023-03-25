@@ -1,5 +1,11 @@
-variable "data" {
-  ami      = string
-  instance = string
-  counter  = number
+variable "ami" {
+  type = "string"
+}
+
+variable "instance" {
+  type = "string"
+}
+
+variable "counter" {
+  type = "string"
 }
