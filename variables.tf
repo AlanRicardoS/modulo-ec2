@@ -1,11 +1,11 @@
 variable "ami" {
-  type = "string"
+  type = string
 }
 
 variable "instance" {
-  type = "string"
+  type = string
 }
 
 variable "counter" {
-  type = "string"
+  type = string
 }
