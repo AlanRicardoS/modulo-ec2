@@ -1,5 +1,5 @@
 resource "aws_instance" "modeloteste" {
-  ami           = ami
-  instance_type = instance
-  count = count
+  ami           = var.data.ami
+  instance_type = var.data.instance
+  count = var.data.counter
 }
